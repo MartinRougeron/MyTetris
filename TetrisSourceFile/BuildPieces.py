@@ -19,7 +19,7 @@ def TransfromToVector(Array):
     for y in range(row):
         for x in range(columns):
             if (Array[y][x] != 0):
-                NewArray.append([y - 2, x - 2])
+                NewArray.append([x - 2, y - 2])
     return NewArray
 
 def FillArray():
