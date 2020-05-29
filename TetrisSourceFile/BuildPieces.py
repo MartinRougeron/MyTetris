@@ -1,7 +1,7 @@
-from defines import Piece, shapes_name, shapes, nb_shapes
+from defines import Piece, shapes_name, shapes, nb_shapes, Window_width
 
 def FillShape(position):
-    return Piece(5, 5, shapes[position], shapes_name[position])
+    return Piece(5, 5, shapes[position], shapes_name[position], [Window_width // 2, 100])
 
 def SameSize(Array):
     row = len(Array)
